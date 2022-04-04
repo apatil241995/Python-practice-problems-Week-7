@@ -5,7 +5,7 @@ S_um = a+b
 print(sum)
 
 #using function
-def S_um(a,b):
+def s_um(a,b):
   return a+b
 
 #using class
