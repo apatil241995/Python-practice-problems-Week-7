@@ -1,7 +1,4 @@
 #simple way
-from operator import le
-
-
 str1 = "anish"
 str2 = "patil"
 

@@ -49,9 +49,9 @@ class Agein_days:
 
   def calc_age_in_days(self):
     current_year = datetime.now().year
-    year_of_birth = current_year - age
+    year_of_birth = current_year - self.age
     no_of_leap_years = 0
-    for i in range(age+1):
+    for i in range(self.age+1):
       a = year_of_birth
       if a%100 != 0 and a%400 == 0:
         no_of_leap_years += 1
@@ -62,6 +62,6 @@ class Agein_days:
       else:
         year_of_birth += 1
 
-    age_in_days = ((age-no_of_leap_years)*365)+(no_of_leap_years*366)
+    age_in_days = ((self.age-no_of_leap_years)*365)+(no_of_leap_years*366)
 
     return age_in_days

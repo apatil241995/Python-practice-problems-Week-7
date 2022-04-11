@@ -1,7 +1,10 @@
 #simple way
 lis1 = [1,2,3,4,5]
-print(lis1[-1])
-print(lis1[len(lis1)-1])
+if len(lis1) > 0:
+  print(lis1[-1])
+  print(lis1[len(lis1)-1])
+else:
+  print("list is empty")
 
 #using function
 def last_ele(lis2):

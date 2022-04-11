@@ -6,6 +6,9 @@ def sequence(start,stop):
   return ans
 
 if __name__ == "__main__":
-  start = int(input('Give starting no: '))
-  stop = int(input('give stoping no: '))
-  print(sequence(start,stop))
+  try:
+    start = int(input('Give starting no: '))
+    stop = int(input('give stoping no: '))
+    print(sequence(start,stop))
+  except:
+    print("Please enter integer values")

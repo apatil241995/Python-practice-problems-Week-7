@@ -1,6 +1,3 @@
-from dataclasses import replace
-
-
 def replace_word(sent):
   word = input("Enter the word to be replaced: ")
   replace_with = ("Enter thr word to replace with: ")

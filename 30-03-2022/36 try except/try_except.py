@@ -1,6 +1,3 @@
-from ast import Try
-
-
 def exceptions():
   try:  
     return 5/0

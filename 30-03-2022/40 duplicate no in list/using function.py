@@ -1,4 +1,5 @@
 def duplicate_elemets(lis):
+  #using dict to store the elements in list as key and their no of occurance as value
   dict = {}
   dup_ele = []
   for i in lis:
@@ -7,6 +8,7 @@ def duplicate_elemets(lis):
     else:
       dict[i] = 1
   
+  #printing the keys with value grater than 1 which naturaly are duplicate elements
   for k,v in dict.items():
     if v > 1:
       dup_ele.append(k)

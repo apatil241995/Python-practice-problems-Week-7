@@ -4,19 +4,38 @@ class Math_operatio:
     self.b = b
   
   def addition(self):
-    return self.a+self.b
+    if type(self.a) == int and type(self.b) == int:
+      return self.a+self.b
+    else:
+      return "Please enter integer value"
   
   def subtraction(self):
-    return self.a-self.b
+    if type(self.a) == int and type(self.b) == int:
+      return self.a-self.b
+    else:
+      return "Please enter integer value"
   
   def multiplication(self):
-    return self.a*self.b
+    if type(self.a) == int and type(self.b) == int:
+      return self.a*self.b
+    else:
+      return "Please enter integer value"
   
   def division(self):
-    return self.a/self.b
+    if type(self.a) == int and type(self.b) == int:
+      return self.a/self.b
+    else:
+      return "Please enter integer value"
+    
   
   def modulus(self):
-    return self.a%self.b
+    if type(self.a) == int and type(self.b) == int:
+      return self.a%self.b
+    else:
+      return "Please enter integer value"
   
   def floor_division(self):
-    return self.a//self.b
+    if type(self.a) == int and type(self.b) == int:
+      return self.a//self.b
+    else:
+      return "Please enter integer value"

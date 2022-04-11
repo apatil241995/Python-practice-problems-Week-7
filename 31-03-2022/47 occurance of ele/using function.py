@@ -1,4 +1,6 @@
 def occ_ele(lis):
+
+  #using dict to store element as key and it's occurance as value
   dict = {}
   for i in lis:
     if dict.get(i):

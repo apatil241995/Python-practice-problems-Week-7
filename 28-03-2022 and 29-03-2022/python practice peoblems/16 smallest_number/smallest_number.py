@@ -26,7 +26,7 @@ class min_of_list:
     for i in self.lis:
       if i < min:
         min = i
-    return i
+    return min
   
   #using in built function
   lis_ = [1,2,3,4,5]

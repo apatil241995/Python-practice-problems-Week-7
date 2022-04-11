@@ -4,10 +4,9 @@ num_list = []
 word_list= []
 
 for i in list:
-  for j in i:
-    if j.isnumeric():
-      num_list.append(j)
-      a = i.replace(j,"")
-      word_list.append(a)
+  if i.isnumeric():
+    num_list.append(i)
+  else:
+    word_list.append(i)
       
 print(num_list, word_list)

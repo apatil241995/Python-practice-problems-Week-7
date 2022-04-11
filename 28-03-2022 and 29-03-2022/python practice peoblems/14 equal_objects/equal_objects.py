@@ -1,8 +1,4 @@
 #simple way
-
-from operator import truediv
-
-
 obj1 = 10
 obj2 = 10
 

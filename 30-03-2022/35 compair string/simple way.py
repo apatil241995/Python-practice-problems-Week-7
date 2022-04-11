@@ -1,14 +1,15 @@
 def comp_str(str1,str2):
-  if len(str1) == len(str2):
-    print(str1, end='\n')
-    print(str2)
+  if type(str1) == str and type(str2)==str:
+    if len(str1) == len(str2):
+      print(str1, end='\n')
+      print(str2)
 
-  if len(str1)>len(str2):
-    print(str1)
+    if len(str1)>len(str2):
+      print(str1)
+    else:
+      print(str2)
   else:
-    print(str2)
+    print("please enter value of string type")
 
 if __name__=="__main__":
-  str1 = input('Enter first string: ')
-  str2 = input('Enter second string: ')
-  comp_str(str1,str2)
+  comp_str("anish","anish")

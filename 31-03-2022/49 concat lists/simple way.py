@@ -1,6 +1,3 @@
-from socket import J1939_FILTER_MAX
-
-
 list1 = ["Hello ", "take "]
 list2 = ["Dear", "Sir"] 
 output = []
